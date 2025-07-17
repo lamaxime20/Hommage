@@ -89,6 +89,10 @@ h1 {
     }
 
     .footText {
-        font-size: 13px;
+        font-size: 10px;
+    }
+
+    .headerText {
+        font-size: 20px;
     }
 }
