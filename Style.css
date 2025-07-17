@@ -1,0 +1,48 @@
+.hbox {
+    display: flex;
+    flex-direction: row; /* horizontal, comme HBox */
+    gap: 10px; /* espace entre les éléments (facultatif) */
+    align-items: center; /* alignement vertical */
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Ombre floutée */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hbox:hover {
+  transform: translateY(-8px); /* Légère montée */
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); /* Ombre plus marquée */
+}
+
+.body {
+    background-color: #f0f0f0;
+}
+
+.footText {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.foter {
+    background-image: linear-gradient(to right, #061c74, #740606);
+}
+
+.vbox {
+    display: flex;
+    flex-direction: column; /* horizontal, comme HBox */
+    gap: 10px; /* espace entre les éléments (facultatif) */
+    align-items: center; /* alignement vertical */
+}
+
+.headerText {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, #43A1D5, #ffffff);
+}
+
+.secondHeaderText {
+    text-align: center;
+}
